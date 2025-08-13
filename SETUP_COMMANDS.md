@@ -1,6 +1,6 @@
 # Полный список команд для создания проекта
 
-## 🚀 Пошаговое создание проекта React + Vite + Tailwind CSS 4.1 + Shadcn UI
+## 🚀 Пошаговое создание проекта React + Vite + Tailwind CSS + Shadcn UI
 
 ### 1. Создание проекта React + Vite
 ```bash
@@ -19,7 +19,7 @@ npm install
 # Установка стабильной версии Tailwind CSS 3.x
 npm install -D tailwindcss@^3.4.0 postcss autoprefixer
 
-# ИЛИ для Tailwind CSS 4.1 (экспериментальная версия)
+# ИЛИ для Tailwind CSS (экспериментальная версия)
 npm install -D tailwindcss postcss autoprefixer
 npm install -D @tailwindcss/postcss
 ```
@@ -87,9 +87,9 @@ npm run dev
 
 ## 🔧 Команды для устранения проблем
 
-### Исправление ошибки PostCSS с Tailwind CSS 4.1
+### Исправление ошибки PostCSS с Tailwind CSS
 ```bash
-# Установка правильного PostCSS плагина для Tailwind CSS 4.1
+# Установка правильного PostCSS плагина для Tailwind CSS
 npm install -D @tailwindcss/postcss
 
 # Обновление postcss.config.js
@@ -98,7 +98,7 @@ npm install -D @tailwindcss/postcss
 
 ### Исправление ошибки PostCSS (рекомендуемое решение)
 ```bash
-# Удаление Tailwind CSS 4.1 и установка стабильной версии 3.x
+# Удаление Tailwind CSS и установка стабильной версии 3.x
 npm uninstall tailwindcss @tailwindcss/postcss
 npm install -D tailwindcss@^3.4.0 postcss autoprefixer
 
@@ -136,7 +136,7 @@ npm install class-variance-authority clsx lucide-react tailwind-merge
 ```bash
 npm install -D @vitejs/plugin-react vite
 npm install -D tailwindcss@^3.4.0 postcss autoprefixer
-# ИЛИ для Tailwind CSS 4.1:
+# ИЛИ для Tailwind CSS:
 # npm install -D tailwindcss postcss autoprefixer @tailwindcss/postcss
 npm install -D eslint @eslint/js eslint-plugin-react-hooks eslint-plugin-react-refresh
 npm install -D @types/react @types/react-dom
@@ -202,7 +202,7 @@ npm cache clean --force
 
 ## 🚨 Важные моменты
 
-1. **PostCSS плагин:** В Tailwind CSS 4.1 изменился способ подключения PostCSS плагина
+1. **PostCSS плагин:** В Tailwind CSS изменился способ подключения PostCSS плагина
 2. **Рекомендуется Tailwind CSS 3.x:** Более стабильная версия с меньшим количеством проблем
 3. **Import alias:** Необходимо настроить как в jsconfig.json, так и в vite.config.js
 4. **PowerShell:** Не поддерживает оператор &&, нужно использовать отдельные команды
