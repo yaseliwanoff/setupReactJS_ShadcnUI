@@ -1,4 +1,4 @@
-# React + Vite + Tailwind CSS 4.1 + Shadcn UI
+# React + Vite + Tailwind CSS + Shadcn UI
 
 Современный стартовый шаблон для React проектов с использованием Vite, Tailwind CSS 4.1 и Shadcn UI.
 
